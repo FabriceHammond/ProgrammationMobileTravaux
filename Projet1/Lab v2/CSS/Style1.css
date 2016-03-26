@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+}
+footer{
+	display:block;
+	clear:both;
+}
+header{
+
+	color: red;
+	padding-left: 5em;
+
+	border-width:1 em;
+	border-style: solid;
+	clear: top;
+	clear: right;
+	clear: left;
+
+}
+button{
+	margin-left: 5px;
+	
+}
+#logo-top-left{
+		/* emplacement*/
+		float: left;
+	padding-right: 2%;
+	position: relative;	
+	padding-left: 2%;
+	top: 1.5em;
+	margin-left: 5.5%;
+	margin-right:0.5%;
+
+
+	
+}
+
+#entete{
+	
+	position: relative;
+	width: 100%;
+	background-color: black;
+	height: 7em;
+	
+}
+#produit-vedette{
+	position: relative;
+	float: right;
+	margin-right: 5em;
+	margin-left: 15em;
+	
+}
+
+#produit{
+	position: relative;
+	float: left;
+	margin-right: 5em;
+	margin-left: 15em;
+	color: red;
+	border-style: solid;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	width: 250px;
+	
+}
+
+.produit-vedette{
+	position: relative;
+	float: left;
+	margin-left: 10em;
+	margin-top: 5em;
+
+	
+	
+}
+.info-produit-vedette{
+	
+	
+	float: right;
+	margin-left: 2em;
+	margin-top: 9em;
+	line-height: 5em;
+	
+}
+
+#info-produit-vedette{
+	
+	
+	float: left;
+	margin-left: 2em;
+	margin-top: 9em;
+	line-height: 5em;
+}
+#idProsduit{
+	width: 100%;
+	height: auto;
+	border-style: solid;
+}
+.menu{
+	
+		/* emplacement*/
+	float: left;
+	padding: 1% 2% 1% 2%;
+	position: relative;	
+
+	top: 1em;
+
+	/*texte*/
+	font-size: 100%;
+	font-weight: bold;
+	color: white;
+
+	/*apparence du div*/
+	
+	 border-width:1 em;
+	 
+	 
+	 transition: 0.3s;
+ }
+#img1{
+	 width:500px;
+	 height:500px;
+	
+}
+.produitsVente{
+	
+	/*border-style: solid;
+	color: blue;*/
+	width: 80%;
+	height: 80%;
+	clear: both;
+	border-left: 10%;
+	padding-bottom: 10%;
+	}
+
+#img2{
+	 width:200px;
+	 height:200px;
+	
+}
+ div.menu:hover{
+	 box-shadow: 0 100px black inset;
+	 color: grey;
+ }

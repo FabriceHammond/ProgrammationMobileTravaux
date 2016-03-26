@@ -1,0 +1,22 @@
+header{
+
+color: red;
+padding-left: 5em;
+
+border-width:1 em;
+border-style: solid;
+clear: top;
+clear: right;
+clear: left;
+
+}
+#test{
+float: left;
+padding-right: 1 em;
+position: relative;	
+padding-left: 1em;
+top: 1em;
+color: blue;
+border-width:1 em;
+border-style: solid;
+}

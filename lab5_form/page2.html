@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="Stylesheet"type="text/css" href="CSS/style2.css"/>
+<meta charset="utf-8">
+<title>TheComisDatingSite</title>
+<script src="script.js"></script>
+</head>
+
+<body>
+	<embed src="musique/CallOfDutyWorldAtWarRussianThemeFormulaire.mp3" autostart="true" loop="true"
+	width="2" height="0">
+	</embed>
+
+	<div id="alpha">
+	<img src="Image/logo.jpg" style="width:15%; heigth:200px; float:left;">
+	<p class="alt"><br>the soviet Communist party for party and dating and also meeting official website</p>
+	<img src="Image/logo.jpg" style="width:15%; heigth:200px; float: right;">
+	</div>
+	
+	<div id="beta">
+	<p class="alt" style="float: left; width:20%"><br>for the motherland!</p>
+	<img src="Image/Banner.png" style="float:left; width:59%; heigth:500px;">
+	<p class="alt" style="float:right; width:20%;"><br>for the motherland!</p>
+	</div>
+	
+	<nav>
+	<ul id="MenuPrin">
+		<li><a href="connexion.html">Connexion</a></li>
+		<li>Members</li>
+		<li>Dating Suggestion</li>
+		<li>Magnificent Music</li>
+		<li>Event</li>
+		<li>Our Matches</li>
+		<li>Sister's Sites</li>
+	</ul>     
+	</nav>
+
+	<section>
+	<p class="alt">
+	<br>Please completly answer this subscribe form correctly dear futur new Komrade!
+	</p>
+	<form name="inscription" method="post" onsubmit="return valider(this)">
+	<p>
+	<label>Your user name Komrade</label>:
+		<input autofocus required type="text" name ="UName"/><br>
+	<label>Your first name Komrade</label>:
+		<input required type="text" name ="Name"/><br>
+	<label>Your famly name Komrade</label>:
+		<input required type="text" name = "FamlyName"/><br><br>
+
+	<label>Your Password Komrade</label>:
+		<input required type="password" name="passW"><br>
+	<label>Password confirmation komrade</label>:
+		<input required type="password" name="passWCheck"><br><br>
+		
+	<label>Your e-mail komr@de</label>:
+		<input required type="email" name="eMailAddr"><br>
+	<label>Your city</label>:
+		<input required type="text" name="City"><br>
+	<label>Your Country</label>:
+		<select country="Country" id="cuntr" onchange="list">
+		<option value="ru">U.R.S.S.</option>
+		<option value="ch">China</option>
+		<option value="nc">North corea</option>
+		<option value="cu">cuba</option>
+		<option value="Sbporu">Soon to be part of the U.R.S.S.</option>
+		<option value="cs">Capitalist Scum (U.S.A.)</option>
+		</select><br>
+	
+	<label>Your gender</label>:
+	<label for="m">Manly men</label>:
+		<input required type="radio" name="gender" value="men" id="m">
+	<label for="f">Female</label>:
+		<input required type="radio" name="gender" value="fem" id="f"><br>
+	<label for="p">go see a therapist</label>:
+		<input required type="radio" name="gender" value="psy" id="f"><br><br>
+		
+	<input type="submit" value="Envoyer"  />
+	</p>
+	</form>
+	</section>
+</body>
+ 
+</html>

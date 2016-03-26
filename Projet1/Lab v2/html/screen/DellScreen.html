@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Enlarge Your Computer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+  <link rel="Stylesheet" type="text/css" href="CSS/styleJQ.css"/>
+</head>
+<body>
+<div id="bloc_page">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../../indexALpha.html"><img src="../../images/logo201.png" alt="logo" title="Main page"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../../indexALpha.html">Home</a></li>
+        <li><a href="../products.html">Products</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+		
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="../cart.html">Cart <img src="../../images/divers/cart.png" alt="a cart"></a></li>
+        <li><a href="../login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+	  <p>Lien rapide</p><hr>
+      <p><a href="../mouse/MouseList.html">Souris</a></p>
+      <p><a href="../keyboard/KeyboardList.html">Clavier</a></p>
+      <p><a href="../laptop/LaptopList.html">Portable</a></p>
+	  <p><a href="../tower/DesktopList.html">Tour</a></p>
+	  <p><a href="ScreenList.html">écrant</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Parfait pour le travail : DELL D2015HM Black 19.5" Full HD</h1>
+	  <h3>Prix: 139,99$(can)<h3>
+      <img src="../../images/ecrant/DELL D2015HM Black 19.5.jpg" alt="LGScreen25" style="width:30%;height: 30%;">
+      <hr>
+      <h3>Quantité: </h3>
+		  <form id='myform' method='POST' action='#'>
+			<input type='button' value='-' class='qtyminus' field='quantity' />
+			<input id='quantity'type='text' name='quantity' value='0' maxlength="2" class='qty'  />
+			<input type='button' value='+' class='qtyplus' field='quantity' /><br>
+			<input type='button' value='add to cart' class='addCart' onclick ="AjouterAuPanier()"/>
+			<hr>
+			<script src="../../js/monCart.js">
+		  </form>
+    </div>
+
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>Souvent ahceté avec:<br><a href="../mouse/logitechm510.html">Logitech m520 Wireless</a><br>
+		<a href="../mouse/logitechm510.html"><img src="../../images/souris/LogitechM510Wireless.jpg" alt="LogitechM510" style="width:80%;height:80%;" title="Logitech m520 Wireless"></a></p>
+      </div>
+      <div class="well">
+        <p>Souvent ahceté avec:<br><a href="../keyboard/SiliconeKeyBoard.html">Silicone keyboard</a><br>
+		<a href="../keyboard/SiliconeKeyBoard.html"><img src="../../images/clavier/SiliconekeyBoard.jpg" alt="SiliconeKeyBoard" style="width:80%;height:80%;" title="Silicone Keyboard"></a></p>
+      </div>
+    </div>
+	<hr>
+  </div>
+  <br><br><br><br><br><br><br><br>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>
+	<a href="https://www.facebook.com/" target="_blank"><img src="../../images/divers/facebook.png" alt="facebook" /></a>
+    <a href="https://www.youtube.com" target="_blank"><img src="../../images/divers/youtube.png" alt="youtube" /></a>
+    <a href="https://twitter.com/" target="_blank"><img src="../../images/divers/twitter.png" alt="Twitter" /></a>
+	<a href="../support.html">Support</a> ,
+	<a href="../contact.html">contact</a> ,
+	<a href="#bloc_page">Retour au haut de la page</a><br>
+	EnlargeYourComputer.com</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body{
+background-color: rgb(0,140,51);}
+
+@font-face{
+	font-family: myFirstFont;
+	src: url(KremlinAlexander.ttf)}
